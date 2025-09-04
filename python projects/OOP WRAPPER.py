@@ -57,7 +57,7 @@ while True:
         salary = float(input("Enter salary: "))
         e = Employee(name, age, emp_id, salary)
         people.append(e)
-        print(f"\nManager created with name:{name}, age:{age}, ID:{emp_id} and salary:${salary}")
+        print(f"\nEmployee created with name: {name}, age: {age}, ID: {emp_id} and salary: ${salary}")
         
 
     elif choice == '3':
@@ -68,7 +68,7 @@ while True:
         dept = input("Enter department: ")
         m = Manager(name, age, emp_id, salary, dept)
         people.append(m)
-        print(f"\nManager created with name:{name}, age:{age}, ID:{emp_id}, salary:${salary} and department:{dept}")
+        print(f"\nManager created with name: {name}, age: {age}, ID: {emp_id}, salary: ${salary} and department: {dept}")
         
 
     elif choice == '4':
@@ -99,6 +99,7 @@ while True:
                         print("Both have the same salary.")
 
     elif choice == '6':
+        print("Program ended.....")
         print("\nGoodbye!")
         break
 
